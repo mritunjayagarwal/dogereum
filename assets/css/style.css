@@ -1,0 +1,23 @@
+body{
+    background: rgb(9, 122, 156)
+}
+
+h1{
+    margin: 50px 0;
+}
+
+section{
+    padding: 100px 0 0 0;
+}
+
+.navbar li a{
+    color: #fff;
+}
+
+.navbar li a:hover{
+    color: #181818;
+}
+
+.navbar-brand{
+    color: #fff;
+}
