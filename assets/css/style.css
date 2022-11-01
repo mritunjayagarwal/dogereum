@@ -7,6 +7,11 @@ h1{
     margin: -120px 0 50px 0;
 }
 
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 .h-back{
     color: rgba(0,0,0,0.5);
     opacity: 0.1;
