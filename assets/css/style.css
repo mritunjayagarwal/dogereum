@@ -34,6 +34,10 @@ section{
     letter-spacing: 3px;
 }
 
+.navbar-brand:hover{
+    color: #d3d3d3;
+}
+
 .avenue{
     padding: 20px;
     border-radius: 50px;
