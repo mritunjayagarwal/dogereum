@@ -1,13 +1,22 @@
-body{
-    background: rgb(9, 122, 156)
-}
+/* body{
+    background: url('../img/bbg.svg');
+    background-size: cover;
+} */
 
 h1{
-    margin: 50px 0;
+    margin: -120px 0 50px 0;
+}
+
+.h-back{
+    color: rgba(0,0,0,0.5);
+    opacity: 0.1;
+    margin-top: -120px;
+    font-size: 50px;
+    letter-spacing: 20px;
 }
 
 section{
-    padding: 50px 0 0 0;
+    padding: 100px 0 150px 0;
 }
 
 .navbar li a{
@@ -15,11 +24,32 @@ section{
 }
 
 .navbar li a:hover{
-    color: #181818;
+    color: #d3d3d3;
+    text-decoration: none;
 }
 
 .navbar-brand{
     color: #fff;
     font-size: 30px;
     letter-spacing: 3px;
+}
+
+.avenue{
+    padding: 20px;
+    border-radius: 50px;
+    background: #097A9C;
+}
+
+.avenue .btn{
+    border-radius: 30px;
+}
+
+.f-ul li a{
+    color: #fff !important;
+    text-decoration: none;
+    margin-left: -23px;
+}
+
+.f-ul{
+    list-style-type: none;
 }
