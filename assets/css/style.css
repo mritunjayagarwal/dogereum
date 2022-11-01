@@ -3,62 +3,115 @@
     background-size: cover;
 } */
 
-h1{
+h1 {
     margin: -120px 0 50px 0;
 }
 
-.container{
+.container {
     max-width: 90%;
     margin: 0 auto;
 }
 
-.h-back{
-    color: rgba(0,0,0,0.5);
+.h-back {
+    color: rgba(0, 0, 0, 0.5);
     opacity: 0.1;
     margin-top: -120px;
     font-size: 50px;
     letter-spacing: 20px;
 }
 
-section{
+section {
     padding: 100px 0 150px 0;
 }
 
-.navbar li a{
+.navbar li a {
     color: #fff;
 }
 
-.navbar li a:hover{
+.navbar li a:hover {
     color: #d3d3d3;
     text-decoration: none;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #fff;
     font-size: 30px;
     letter-spacing: 3px;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: #d3d3d3;
 }
 
-.avenue{
+.avenue {
     padding: 20px;
     border-radius: 50px;
     background: #09202A;
 }
 
-.avenue .btn{
+.avenue .btn {
     border-radius: 30px;
 }
 
-.f-ul li a{
+.f-ul li a {
     color: #fff !important;
     text-decoration: none;
     margin-left: -23px;
 }
 
-.f-ul{
+.f-ul {
     list-style-type: none;
+}
+
+.heading {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 60px;
+    color: #eee;
+    text-shadow: 0 0 3px #000, 5px 5px 5px #000;
+}
+
+.roadmap-section {
+    position: relative;
+    padding: 100px 0 900px 0;
+    margin-top: -50px;
+    background: url(../img/bg1.png);
+    background-size: cover;
+}
+
+.iframe-uni{
+    width: 80%; height: 530px;z-index: 2; border-radius: 40px;overflow: hidden;border: 10px solid #216C7A
+}
+
+@media only screen and (max-width: 667px) {
+    .heading {
+        font-size: 50px;
+    }
+
+    .h-back {
+        display: none;
+    }
+
+    .roadmap-section {
+        padding: 100px 0 200px 0;
+    }
+
+    .nav-item{
+        margin: 10px 0 10px -10px;
+    }
+
+    .uni-btn{
+        width: 98%;
+        margin-left: 10px;
+    }
+
+    .iframe-uni{
+        width: 100%;
+        border: 5px solid #216C7A;
+    }
+
+    h1{
+        margin: -80px 0 50px 0;
+    }
+
 }
