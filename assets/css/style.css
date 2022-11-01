@@ -26,6 +26,7 @@ section {
 
 .navbar li a {
     color: #fff;
+    font-size: 23px;
 }
 
 .navbar li a:hover {
