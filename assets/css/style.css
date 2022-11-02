@@ -120,4 +120,9 @@ section {
         margin: -80px 0 50px 0;
     }
 
+    .container{
+        max-width: 98%;
+        margin: 0 auto;
+    }
+
 }
