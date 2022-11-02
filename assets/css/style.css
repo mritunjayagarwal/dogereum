@@ -1,7 +1,6 @@
-/* body{
-    background: url('../img/bbg.svg');
-    background-size: cover;
-} */
+body{
+   max-width: 100% !important
+}
 
 h1 {
     margin: -120px 0 50px 0;
