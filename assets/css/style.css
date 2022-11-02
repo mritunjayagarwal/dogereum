@@ -138,4 +138,8 @@ section {
         width: 100%;
     }
 
+    .sup-img{
+        width: 800px !important;
+    }
+
 }
