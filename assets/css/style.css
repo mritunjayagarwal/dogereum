@@ -89,10 +89,22 @@ section {
 
 .roadmap-section {
     position: relative;
-    padding: 100px 0 900px 0;
+    padding: 100px 0 650px 0;
     margin-top: -50px;
     background: url(../img/bg1.png);
     background-size: cover;
+}
+
+.road-img{
+    position: absolute; top: 0px; bottom: 0; left: 0; right: 0;
+}
+
+footer{
+    margin-top: 250px;
+}
+
+.roadmap-head{
+    position: absolute; top: 100px; bottom: 0; left: 0; right: 0;
 }
 
 .iframe-uni{
@@ -108,8 +120,16 @@ section {
         display: none;
     }
 
-    .roadmap-section {
-        padding: 100px 0 200px 0;
+    .roadmap-head{
+        top: 20px !important
+    }
+
+    .road-img{
+        top: 0px !important;
+    }
+
+    footer{
+        margin-top: 0px !important;
     }
 
     .nav-item{
@@ -148,4 +168,15 @@ section {
         width: 800px !important;
     }
 
+}
+
+@media only screen and (max-width: 1800px) {
+
+    .roadmap-section {
+        padding: 100px 0 500px 0 !important;
+    }
+
+    footer{
+        margin-top: 60px;
+    }
 }
